@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import ScrollComponent from './components/HomeWrapper'; // Adjust the path as necessary
+import HomeWrapper from './components/HomeWrapper';
 
-export default function App() {
+const App = () => {
   return (
     <div>
-      <ScrollComponent />
+      <HomeWrapper />
     </div>
   );
-}
+};
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
